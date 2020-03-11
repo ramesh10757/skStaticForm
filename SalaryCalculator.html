@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>SK Salary Calculation</title>
+	</head>
+	<body>
+		<form action="http:skcalculator.herokuapp.com/calculate">
+			<label>SK ID:</label><br/>
+			<input id="id" type = "text" name="skId">
+			<br/><br/>
+			<label>Crown Level</label><br/>
+			<input id="crown" type="text" name="crownLevel">
+			<br/><br/>
+			<label>Is it your first month?</label><br/>
+			<label>No: <input id="isFirstMonthNo" type="radio" name="isFirstMonth" value="false" checked="checked">
+			<label>Yes: <input id="isFirstMonthNo" type="radio" name="isFirstMonth" value="true">
+			<br/><br/>
+			<label>Video Live Duration</label><br/>
+			<input id="liveDuration" type="text" name="liveDuration">
+			<br/><br/>
+			<label>Valid Days</label><br/>
+			<input id="validDays" type="text" name="validDays">
+			<br/><br/>
+			<label>Actual Earning</label><br/>
+			<input id="actualEarning" type="text" name="actualEarning">
+			<br/><br/>
+			<label>Bonus Gems</label><br/>
+			<input id="bonusGems" type="text" name="bonusGems">
+			<br/><br/>
+			<input type="submit" name="Submit" formmethod="get">
+		</form>
+	</body>
+
+</html>
